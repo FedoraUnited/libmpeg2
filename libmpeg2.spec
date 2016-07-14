@@ -1,6 +1,6 @@
 Name:           libmpeg2
 Version:        0.5.1
-Release:        11%{?dist}
+Release:        12%{?dist}
 Summary:        MPEG-2 decoder libraries
 
 Group:          System Environment/Libraries
@@ -114,6 +114,10 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+
+* Fri Jul 08 2016 David Vásquez <davidjeremias82 AT gmail DOT com> - 0.5.1-12
+- Massive rebuild
+
 * Sun Aug 31 2014 Sérgio Basto <sergio@serjux.com> - 0.5.1-11
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_21_22_Mass_Rebuild
 
